@@ -1,4 +1,4 @@
-public class geoplana {
+public class Geoplana {
  
     public static double areaCirculo(double raio) {
 
