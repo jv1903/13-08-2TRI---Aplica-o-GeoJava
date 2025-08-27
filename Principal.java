@@ -160,7 +160,7 @@ public class principal {
 
                 System.out.printf("Volume: %.2f\n", geoespacial.volCubo(lado));
 
-                System.out.printf("Área superficial: %.2f\n", geoespacial.areaCubo(lado));
+                System.out.printf("Área superficial: %.2f\n", geoespacial.arCubo(lado));
 
                 break;
 
@@ -170,9 +170,9 @@ public class principal {
 
                 double raio = sc.nextDouble();
 
-                System.out.printf("Volume: %.2f\n", geoespacial.volumeEsfera(raio));
+                System.out.printf("Volume: %.2f\n", geoespacial.volEsfera(raio));
 
-                System.out.printf("Área superficial: %.2f\n", geoespacial.areaEsfera(raio));
+                System.out.printf("Área superficial: %.2f\n", geoespacial.arEsfera(raio));
 
                 break;
 
@@ -186,9 +186,9 @@ public class principal {
 
                 double altura = sc.nextDouble();
 
-                System.out.printf("Volume: %.2f\n", geoespacial.volumeCilindro(raio, altura));
+                System.out.printf("Volume: %.2f\n", geoespacial.volCilindro(raio, altura));
 
-                System.out.printf("Área superficial: %.2f\n", geoespacial.areaCilindro(raio, altura));
+                System.out.printf("Área superficial: %.2f\n", geoespacial.arCilindro(raio, altura));
 
                 break;
 
@@ -206,9 +206,9 @@ public class principal {
 
                 double comprimento = sc.nextDouble();
 
-                System.out.printf("Volume: %.2f\n", geoespacial.volumePrismaRetangular(base, alturaPrisma, comprimento));
+                System.out.printf("Volume: %.2f\n", geoespacial.volPrismaRetangular(base, alturaPrisma, comprimento));
 
-                System.out.printf("Área superficial: %.2f\n", geoespacial.areaPrismaRetangular(base, alturaPrisma, comprimento));
+                System.out.printf("Área superficial: %.2f\n", geoespacial.arPrismaRetangular(base, alturaPrisma, comprimento));
 
                 break;
 
