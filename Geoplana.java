@@ -3,6 +3,7 @@ public class Geoplana {
     public static double areaCirculo(double raio) {
         return Math.PI * raio * raio;
     }
+    
     public static double perimetroCirculo(double raio) {
         return 2 * Math.PI * raio;
     }
