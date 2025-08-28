@@ -35,8 +35,8 @@ public class Principal {
                     System.out.println("Opção inválida!");
             }
         }
-        sc.close();
 
+        sc.close();
     }
 
     private static void menuPlana(Scanner sc) {
@@ -48,14 +48,16 @@ public class Principal {
         int figura = sc.nextInt();
 
         switch (figura) {
-            case 1:
+
+            case 1: { // Círculo
                 System.out.print("Raio: ");
                 double raio = sc.nextDouble();
                 System.out.printf("Área: %.2f\n", Geoplana.areaCirculo(raio));
                 System.out.printf("Perímetro: %.2f\n", Geoplana.perimetroCirculo(raio));
                 break;
+            }
 
-            case 2:
+            case 2: { // Retângulo
                 System.out.print("Base: ");
                 double base = sc.nextDouble();
                 System.out.print("Altura: ");
@@ -63,12 +65,13 @@ public class Principal {
                 System.out.printf("Área: %.2f\n", Geoplana.areaRetangulo(base, altura));
                 System.out.printf("Perímetro: %.2f\n", Geoplana.perimetroRetangulo(base, altura));
                 break;
+            }
 
-            case 3:
+            case 3: { // Triângulo
                 System.out.print("Base: ");
-                base = sc.nextDouble();
+                double base = sc.nextDouble();
                 System.out.print("Altura: ");
-                altura = sc.nextDouble();
+                double altura = sc.nextDouble();
                 System.out.print("Lado 1: ");
                 double l1 = sc.nextDouble();
                 System.out.print("Lado 2: ");
@@ -78,6 +81,7 @@ public class Principal {
                 System.out.printf("Área: %.2f\n", Geoplana.areaTriangulo(base, altura));
                 System.out.printf("Perímetro: %.2f\n", Geoplana.perimetroTriangulo(l1, l2, l3));
                 break;
+            }
 
             default:
                 System.out.println("Opção inválida!");
@@ -94,30 +98,34 @@ public class Principal {
         int solido = sc.nextInt();
 
         switch (solido) {
-            case 1:
+
+            case 1: { // Cubo
                 System.out.print("Lado: ");
                 double lado = sc.nextDouble();
                 System.out.printf("Volume: %.2f\n", Geoespacial.voluCubo(lado));
                 System.out.printf("Área superficial: %.2f\n", Geoespacial.arCubo(lado));
                 break;
+            }
 
-            case 2:
+            case 2: { // Esfera
                 System.out.print("Raio: ");
                 double raio = sc.nextDouble();
                 System.out.printf("Volume: %.2f\n", Geoespacial.volEsfera(raio));
                 System.out.printf("Área superficial: %.2f\n", Geoespacial.arEsfera(raio));
                 break;
+            }
 
-            case 3:
+            case 3: { // Cilindro
                 System.out.print("Raio: ");
-                raio = sc.nextDouble();
+                double raio = sc.nextDouble();
                 System.out.print("Altura: ");
                 double altura = sc.nextDouble();
                 System.out.printf("Volume: %.2f\n", Geoespacial.volCilindro(raio, altura));
                 System.out.printf("Área superficial: %.2f\n", Geoespacial.arCilindro(raio, altura));
                 break;
+            }
 
-            case 4:
+            case 4: { // Prisma Retangular
                 System.out.print("Base: ");
                 double base = sc.nextDouble();
                 System.out.print("Altura: ");
@@ -127,6 +135,7 @@ public class Principal {
                 System.out.printf("Volume: %.2f\n", Geoespacial.volPrismaRetangular(base, alturaPrisma, comprimento));
                 System.out.printf("Área superficial: %.2f\n", Geoespacial.arPrismaRetangular(base, alturaPrisma, comprimento));
                 break;
+            }
 
             default:
                 System.out.println("Opção inválida!");
