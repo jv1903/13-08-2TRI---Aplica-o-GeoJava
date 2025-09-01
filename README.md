@@ -6,36 +6,27 @@ Através de um menu interativo no terminal, o usuário pode escolher diferentes 
 🚀 Funcionalidades
 🔹 Geometria Plana
 
-✅ Círculo → área e perímetro
-
-✅ Retângulo → área e perímetro
-
-✅ Triângulo → área e perímetro
-
-✅ Polígono Regular → área e perímetro
+Círculo, Retângulo, Triângulo e Polígono Regular → área e perímetro
 
 🔹 Geometria Espacial
 
-✅ Cubo → volume e área superficial
-
-✅ Esfera → volume e área superficial
-
-✅ Cilindro → volume e área superficial
-
-✅ Prisma Retangular → volume e área superficial
+Cubo, Esfera, Cilindro e Prisma Retangular → volume e área superficial
 
 🛠️ Tecnologias Utilizadas
 
-Java 17+ (compatível com versões mais recentes)
+Java 17+
 
 Programação orientada a objetos
 
-Uso de métodos estáticos para centralizar os cálculos matemáticos
+Métodos estáticos para cálculos
 
-Estrutura modular com três classes principais:
+Estrutura modular:
 
-Principal.java → Menu interativo
+Principal.java → menu interativo
 
-Geoplana.java → Métodos para figuras planas
+Geoplana.java → figuras planas
 
-Geoespacial.java → Métodos para sólidos geométricos
+Geoespacial.java → sólidos espaciais
+
+
+<img src="prt.png">
